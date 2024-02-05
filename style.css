@@ -1,0 +1,49 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #F9F9F9;
+  color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Space Mono', monospace;
+  color: #555555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #FF6B6B;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #FF4040;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  margin: 25px auto;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+}
+
